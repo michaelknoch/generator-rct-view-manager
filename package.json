@@ -1,5 +1,5 @@
 {
-  "name": "generator-rctviewmanager",
+  "name": "generator-rct-view-manager",
   "version": "0.0.0",
   "description": "",
   "homepage": "",
@@ -51,6 +51,6 @@
         }]
     }
   },
-  "repository": "michaelknoch/generator-rctviewmanager",
+  "repository": "michaelknoch/generator-rct-view-manager",
   "license": "Apache-2.0"
 }
