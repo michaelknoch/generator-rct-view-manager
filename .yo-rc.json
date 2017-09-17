@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Michael Knoch",
+      "authorEmail": "info@michaelknoch.de",
+      "authorUrl": ""
+    }
+  }
+}
