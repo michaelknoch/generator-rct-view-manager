@@ -43,12 +43,8 @@
       "node": true
     },
     "rules": {
-      "indent": [
-        1,
-        4,
-        {
-            "SwitchCase": 1
-        }]
+      "indent": [1, 4, { "SwitchCase": 1 }],
+      "import/no-unresolved": ["error", {"ignore": ["react-native"]}]
     }
   },
   "repository": "michaelknoch/generator-rct-view-manager",
