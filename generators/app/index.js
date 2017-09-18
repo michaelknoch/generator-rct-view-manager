@@ -16,7 +16,7 @@ module.exports = class extends Generator {
             type: 'input',
             name: 'jsPath',
             message: 'and where to store the js stuff?',
-            default: 'components',
+            default: 'app/components',
         }]).then((answers) => {
             this.props = answers;
         });
@@ -39,7 +39,7 @@ module.exports = class extends Generator {
 
         this.fs.copyTpl(
             this.templatePath('DummyView.swift'),
-            this.destinationPath(`${nativePath}/${name}.swift`),
+            this.destinationPath(`${nativePath}/${name}/${name}.swift`),
             { name },
         );
 
