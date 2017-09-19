@@ -28,7 +28,7 @@ module.exports = class extends Generator {
         this.fs.copyTpl(
             this.templatePath('RNDummyView.h'),
             this.destinationPath(`${nativePath}/${name}/RN${name}.h`),
-            { name },
+            { name, addSmartphoneBridging: this.appname === 'smartphone' },
         );
 
         this.fs.copyTpl(
